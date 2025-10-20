@@ -4,7 +4,7 @@
 %global shortcommit     %(c=%{commit}; echo ${c:0:7})
                                                     
 Name:           check_ssl_cert 
-Version:        1.0.4                
+Version:        1.0.5                
 Release:        1%{?dist}          
 Summary:        Icinga check for HTTPS certificate validity
                                                     
