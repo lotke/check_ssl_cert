@@ -10,8 +10,7 @@ Summary:        Icinga check for HTTPS certificate validity
                                                     
 License:        MIT                                                                                      
 URL:            https://github.com/lotke/check_ssl_cert                                            
-Source0:        %{name}-%{version}.tar.gz                                                                
-                                                                                                         
+Source0: https://github.com/lotke/check_ssl_cert/archive/refs/tags/%{version}.tar.gz
 # Build requirements for Go                                                                              
 BuildRequires:  golang >= 1.18
 BuildRequires:  git
